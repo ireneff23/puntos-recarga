@@ -42,16 +42,16 @@ var config = {
         },
           {
             id: 'next-chapter',
-            alignment: 'center',
+            alignment: 'top-right',
             hidden: false,
-            title: 'La situación del coche eléctrico en las Islas Baleares',
-            description: 'Empresas privadas, compañías eléctricas e instituciones públicas están implicados en la instalación de nuevas terminales. Por ejemplo, Endesa está instalando más de 320 puntos de recarga en Baleares. </p>Por su parte, El Govern tiene un listado de los <b>cargadores de titularidad pública operativos</b>, aunque esta recopilación es limitada y no incluye aquellos puestos por compañías privadas.',
-            image: 'Users/irene/Downloads/ptos-recarga/Baleares/storytelling-main/assets/tabla.png',
+            title: 'Empresas y administraciones implicadas',
+            description: 'Empresas privadas, compañías eléctricas e instituciones públicas están implicados en la instalación de nuevas terminales. Por ejemplo, Endesa está instalando más de 320 puntos de recarga en Baleares. </p>Por su parte, el Govern tiene un listado de los <b>cargadores de titularidad pública operativos</b>, aunque esta recopilación es limitada y no incluye aquellos puestos por compañías privadas.',
+            image: '/assets/tabla.png',
             location: {
                 center: [3.17994, 39.55589],
                 zoom: 7.89,
                 pitch: 0.5,
-                bearing: 19.20
+                bearing: 15
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -68,7 +68,7 @@ var config = {
             description: 'En el caso de <b>Mallorca</b>, en 2024 albergaba el mayor número de puntos, especialmente en la ciudad de Palma y en el eje de la carretera Ma-13, que conecta con Alcudia',
             location: {
                 center: [2.64298, 39.58413],
-                zoom: 10,
+                zoom: 10.5,
                 pitch: 0,
                 bearing: -11.20
             },
