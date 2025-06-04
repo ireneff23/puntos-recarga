@@ -16,20 +16,59 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Puntos de recarga de vehículos eléctricos en las Islas Baleares',
-    subtitle: 'La accesibilidad a los puntos de recarga es un factor clave para fomentar la adopción de esta tecnología',
+    subtitle: 'Estaciones de propiedad pública del Govern en el año 2024',
     byline: 'Irene Fedriani',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
+
+        {
+            id: 'intro-chapter',
+            alignment: 'center',
+            hidden: false,
+            title: 'La situación del coche eléctrico en las Islas Baleares',
+            image: 'https://img2.rtve.es/i/?w=1600&i=01712661513616.jpg',
+            description: 'A medida que ha ido creciendo la demanda de vehículos eléctricos en las Islas Baleares, la infraestructura de recarga ha experimentado un crecimiento significativo, si bien aún enfrenta grandes desafíos en términos de operatividad. No existen datos definitivos del total de puntos de recarga, pero la patronal de automóviles Anfac estima que en la comunidad hay cerca de 1.770. Sin embargo, aproximadamente el 36% de estos puntos no están operativos.',
+            location: {
+                center: [2.80763, 39.53450],
+                zoom: 6.89,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+          {
+            id: 'next-chapter',
+            alignment: 'center',
+            hidden: false,
+            title: 'La situación del coche eléctrico en las Islas Baleares',
+            description: 'Empresas privadas, compañías eléctricas e instituciones públicas están implicados en la instalación de nuevas terminales. Por ejemplo, Endesa está instalando más de 320 puntos de recarga en Baleares. </p>Por su parte, El Govern tiene un listado de los <b>cargadores de titularidad pública operativos</b>, aunque esta recopilación es limitada y no incluye aquellos puestos por compañías privadas.',
+            image: 'Users/irene/Downloads/ptos-recarga/Baleares/storytelling-main/assets/tabla.png',
+            location: {
+                center: [3.17994, 39.55589],
+                zoom: 7.89,
+                pitch: 0.5,
+                bearing: 19.20
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
             title: 'Mallorca',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/18-10-30-Mallorca-Palma-RalfR-DJI_0308.jpg/500px-18-10-30-Mallorca-Palma-RalfR-DJI_0308.jpg',
-            description: 'Mallorca se caracteriza por ser la isla de mayor tamaño y con mayor cantidad de habitantes. Es por ello que alberga el mayor número de puntos de recarga, especialmente en la ciudad de Palma y en eleje de la carretera Ma-13, que conecta con Alcudia.',
+            description: 'En el caso de <b>Mallorca</b>, en 2024 albergaba el mayor número de puntos, especialmente en la ciudad de Palma y en el eje de la carretera Ma-13, que conecta con Alcudia',
             location: {
                 center: [2.64298, 39.58413],
-                zoom: 8.4,
+                zoom: 10,
                 pitch: 0,
                 bearing: -11.20
             },
@@ -56,7 +95,7 @@ var config = {
             hidden: false,
             title: 'Menorca',
             image: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Puerto_de_Ciudadela.jpg',
-            description: 'La isla de Menorca es la siguiente con más puntos de recarga, aunque en este caso solo cuenta con dos: en la Ciudadela y en Mahón.',
+            description: 'La isla de Menorca es la siguiente con más puntos de recarga, aunque el año pasado solo contaba con dos de titularidad pública: en <b>la Ciudadela y en Mahón</b>.',
             location: {
                 center: [4.02266, 39.99333],
                 zoom: 9,
@@ -74,14 +113,14 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
+        },        
         {
             id: 'third-identifier',
             alignment: 'center',
             hidden: false,
             title: 'Ibiza',
             image: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Puerto_de_Ibiza%2C_en_Baleares_%28Espa%C3%B1a%29.jpg',
-            description: 'Pese a ser la segunda isla con más habitantes y a recibir un elevado número de turistas a lo largo de todo el año, no existe ningún punto de recarga disponible al público en estos momentos, según los datos del Govern balear.',
+            description: 'Pese a ser la segunda isla con más habitantes y a recibir un elevado número de turistas a lo largo de todo el año, en 2024 no había ningún punto de recarga público disponible, según los datos del Govern balear. En 2025, en cambio, ya están operativos seis: <b>tres en la ciudad de Ibiza, uno en Sant Antoni de Portmany y otros dos en Sant Josep de sa Talaia<b>.',
             location: {
                 center: [1.41126, 38.98069],
                 zoom: 9.47,
@@ -100,7 +139,7 @@ var config = {
             hidden: false,
             title: 'Formentera',
             image: 'https://www.formentera.es/wp-content/uploads/2018/11/Carrer-de-Sant-Francesc_Alfredo-Montero.jpg',
-            description: 'Formentera, la isla más pequeña de las cuatro habitadas, cuenta con una solaestación de recarga en su capital, San Francisco Javier.',
+            description: '<b>Formentera</b>, la isla más pequeña de las cuatro habitadas, cuenta con una solaestación de recarga en su capital, San Francisco Javier.',
             location: {
                 center: [1.56287, 38.69949],
                 zoom: 10.84,
@@ -112,6 +151,7 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        }
+        },
     ]
-};
+        
+    };
