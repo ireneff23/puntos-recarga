@@ -46,7 +46,7 @@ var config = {
             hidden: false,
             title: 'Empresas y administraciones implicadas',
             description: 'Empresas privadas, compañías eléctricas e instituciones públicas están implicados en la instalación de nuevas terminales. Por ejemplo, Endesa está implantando más de 320 puntos de recarga en Baleares. </p>Por su parte, el Govern tiene un listado de los <b>cargadores de titularidad pública operativos</b>, aunque esta recopilación es limitada y no incluye aquellos puestos por compañías privadas, ya que no todas comunican su disponibilidad.',
-            image: '/public/assets/GRAFICO.jpg',
+            image: 'assets/GRAFICO.jpg',
             location: {
                 center: [3.17994, 39.55589],
                 zoom: 7.89,
@@ -65,7 +65,7 @@ var config = {
             hidden: false,
             title: 'Baleares, por debajo de la media nacional',
             description: 'Según recogen medios como Cinco Días, Baleares está por debajo de la media nacional en operatividad (64% vs. 77,2%).',
-            image: '/public/assets/media1.jpg',
+            image: 'assets/media1.jpg',
             location: {
                 center: [3.17994, 39.55589],
                 zoom: 7.89,
